@@ -1,0 +1,65 @@
+.img-size{
+  width: 200px !important;
+  height: 200px !important;
+  transition: 700ms;
+}
+
+.img-size:hover{
+  width: 250px !important;
+  height: 250px !important;
+}
+
+.divv{
+  transition: 700ms;
+}
+.divv:hover{
+  font-size: 26px !important;
+  cursor: pointer !important;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: #d63b3b;
+}
+
+body::-webkit-scrollbar-track:hover {
+  background: #9e6b6b;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #e1dbdb; 
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #c63f3f; 
+}
+
+.visible-scrollbar,
+.invisible-scrollbar,
+.mostly-customized-scrollbar {
+  display: block;
+  width: 10em;
+  overflow: auto;
+  height: 2em;
+}
+
+html{
+  overflow-y: scroll;
+  scrollbar-color:#e1dbdb #c63f3f; 
+  scrollbar-width: thin;
+}
+
+.fnt{
+  font-size: 15px !important;
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    text-align: center !important;
+  }
+}
