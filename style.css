@@ -76,12 +76,13 @@ html{
   text-decoration: none;
   padding: 5px;
   background-color:#f4623a;
+  transition: 0.7s;
   
 }
 
 .langButton:hover{
-  color: black;
-  font-size: 16px;
+  color: white;
+  background-color: #b74a2c;
+  font-size: 14px;
   padding: 7px;
-  transition: 700ms;
 }
