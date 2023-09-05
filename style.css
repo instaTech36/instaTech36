@@ -68,3 +68,20 @@ html{
   }
 }
 
+.langButton{
+  border: #d63b3b solid 1px;
+  border-radius: 10px;
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  background-color: #c63f3f;
+  
+}
+
+.langButton:hover{
+  color: black;
+  font-size: 16px;
+  padding: 7px;
+  transition: 700ms;
+}
