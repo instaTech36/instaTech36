@@ -95,3 +95,8 @@ html{
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.centered i{
+  font-size: 70px;
+}
+
